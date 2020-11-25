@@ -268,6 +268,41 @@ INSERT INTO PAGOS VALUES (14001, '970000219016255724543393500', 'Recursamiento p
 # INSERT INTO PAGOS VALUES (1X0XX, '9700002190162557245433932XX', 'Seguro contra Accidentes', 102);
 
 
+			    
+	#Incercion en tabla materias
+
+INSERT INTO materias VALUES("AED-1285","Fundamentos de programacion", ,5,3,2,'x','x');
+INSERT INTO materias VALUES("AED-1286","Programacion orientada a objetos", ,5,3,2,'x','x');
+INSERT INTO materias VALUES("AED-1026","Estructura de datos", ,5,3,2,'x','x');
+INSERT INTO materias VALUES("ACD-0908",'DESARROLLO SUSTENTABLE',5,5,2,3,'x','x');
+INSERT INTO materias VALUES('AEC-1047','METROLOGUIA Y NORMALIZACION',4,4,2,2,'x','x');
+INSERT INTO materias VALUES('EMC-1022','ELECTRISIDAD Y MAGNETISMO',4,4,2,2,'x','x');
+INSERT INTO materias VALUES('ACC-0906','Fundametos de investigacion',4,4,2,2,'x','x');
+INSERT INTO materias VALUES('ARC-1017','Geometria descriptiva II',4,4,2,2,'x','x');
+INSERT INTO materias VALUES('ARC-1013','Estructuras 1',4,4,2,2,'x','x');
+INSERT INTO materias VALUES('ACA-0907','TALLER DE ETICA',4,4,0,4,'x','x');
+INSERT INTO materias VALUES('AEF-1057','QUIMICA',5,5,3,2,'x','x');
+INSERT INTO materias VALUES'(MAC-1008','DIBUJO AISITIDO POR COMPUTADORAS',4,4,2,2,'x','x');
+INSERT INTO materias VALUES('ACC-0906','FUNDAMENTOS DE INVESTIGACIÓN','.',4,2,2,'.','.');
+INSERT INTO materias VALUES('GEC-0905','DESARROLLO HUMANO' ,'.',4,2,2,'.','.');
+INSERT INTO materias VALUES('GEC-0909','FUNDAMENTOS DE FÍSICA','.',4,2,2,'.','.');
+INSERT INTO materias VALUES('AVD-1209','EL EMPRENDEDOR Y LA INNOVACIÓN','.',5,2,3,'.','.');
+INSERT INTO materias VALUES('AVD-1219','INTRODUCCIÓN A LAS PRODUCCIONES DE ANIMACIÓN','.',5,2,3,'.','.');
+INSERT INTO materias VALUES('ACF-0903','ÁLGEBRA LINEAL' ,'.',5,3,2,'.','.');
+INSERT INTO materias VALUES('LCT-1281','FUNDAMENTOS DEL TURISMO' ,'.',4,2,2,'.','.',);
+INSERT INTO materias VALUES('LTD-1201','ADMINISTRACIÓN DE EMPRESAS TURÍSTICAS' ,'.',5,2,3,'.','.');
+INSERT INTO materias VALUES('LTD-1226','MATEMÁTCIAS APLICADAS AL TURISMO' ,'.',5,2,3,'.','.');
+INSERT INTO materias VALUES('ACA-0907','TALLER DE ÉTICA' ,'.',4,0,4,'.','.');
+INSERT INTO materias VALUES('ACF-0901','CÁLCULO DIFERENCIAL' ,'.',5,3,2,'.','.');
+INSERT INTO materias VALUES('AEO-1012','DIBUJO ASISTIDO POR COMPUTADORA' ,'.',3,0,3,'.','.');
+INSERT INTO materias VALUES('0906',"Fundamentos de investigacion",4,4,2,2,'x','x');
+INSERT INTO materias VALUES('0907',"Taller de etica",4,4,0,0,'x','x');
+INSERT INTO materias VALUES('1029',"Taller de herramientas intelectuales",5,5,2,3,x,x);
+INSERT INTO materias VALUES('1030',"Introduccion a la contabilidad financiera",6,6,2,4,'x','x');
+INSERT INTO materias VALUES('1001',"Administracion",4,4,2,2,'x','x');
+INSERT INTO materias VALUES('1030',"Fundamentos de investigacion",4,4,2,2,'x','x');
+		    
+
 	#id_pago int NOT NULL,
 	#Folio varchar(30) NOT NULL,
 	#TipoPago varchar(30) NOT NULL,
